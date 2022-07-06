@@ -1,0 +1,25 @@
+.task-list{
+    list-style-type: none;
+}
+
+.task-item {
+    color: #000;
+    border-top: solid black 1px;
+    clear: left;
+}
+
+.checkbutton {
+    margin: 15px;
+}
+
+.task-info{
+    float: left;
+}
+
+.task-buttons{
+    float: right;
+}
+
+.edit-button, .delete-button {
+    margin: 5px;
+}

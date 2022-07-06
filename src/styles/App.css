@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  filter: invert(95%) sepia(0%) saturate(7474%) hue-rotate(115deg) brightness(108%) contrast(105%);
+  height: 5vmin;
+  pointer-events: none;
+  margin: 15px;
+}
+
+.App-trash{
+  height: 5vmin;
+  max-height: 30px;
+  pointer-events: none;
+  align-items:inherit;
+}
+
+.App-pencil{
+  height: 3vmin;
+  max-height: 23px;
+  pointer-events: none;
+  align-items:inherit;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  background-color: #633564;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  vertical-align: center;
+}
+
+.task-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  list-style-type: none;
+  margin-top: 5px;
+  align-items: center;
+  width: 100%;
+}
+
+.task-item {
+  width: 100%;
+  text-align: left;
+}
+
+li{
+  margin: 0px 10px 0px 10px;
+}
+
+button{
+  width: 90px;
+}
+
+button, input{
+  margin: 2px;
+}
+
+.button-div{
+  text-align: right;
+  display: flex;
+}
+.edit-button, .delete-button{
+  background-color: white;
+  color: black;
+  border: none;
+  width: 40px;
+}
+
+.addtask-btn{
+  border-radius: 8px;
+  background-color: rgb(22, 163, 34);
+  color: black;
+  display: flex;
+  margin-left: 40px;
+  justify-content: center;
+}
+
+.addtask-btn:hover{
+  box-shadow: 0 0 7px black;
+  font-weight: bolder;
+}
+
+button:hover{
+  filter: brightness(0.85)
+}
+
+.task-status-btn{
+  margin-left: 40px;
+  display: flex;
+}
+
+.task-status-btn button{
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.selected-btn {
+  background-color: white;
+  border-color: black;
+  color: black;
+  box-shadow: 0 0 7px black;
+  font-weight: bold;
+}
+
+.unselected-btn{
+  background-color: black;
+  border-color: black;
+  color: white;
+}
